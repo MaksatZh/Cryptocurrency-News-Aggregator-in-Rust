@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto News Aggregator</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <header class="header">
+        <h1>📰 Cryptocurrency News Aggregator</h1>
+        <p class="subtitle">Get the latest updates from verified sources</p>
+    </header>
+
+    <div class="container">
+        <form id="searchForm" class="search-bar">
+            <input type="text" id="symbolInput" placeholder="Enter crypto symbol (e.g. BTC)" required />
+            <button type="submit">Get News</button>
+        </form>
+
+        <div id="newsContainer"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
